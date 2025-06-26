@@ -3,7 +3,7 @@
 🇬🇧 **English Version**
 
 #### Take a look on the chatroom here:  
-[https://weberi.github.io/kic_chatroom.github.io](https://weberi.github.io/kic_chatroom.github.io)
+[https://weberi.github.io/kic_chatroom.github.io](https://vfruehling.github.io/kic_chatroom.github.io/))
 
 
 #### To create your own chatroom:
