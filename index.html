@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/dist/Chatroom.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/index.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/themes/theme2.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/themes/theme1.css" />
 </head>
 <body>
   <div class="chat-container"></div>
@@ -14,13 +13,13 @@
   <script>
     var chatroom = new window.Chatroom({
       host: "https://humble-goldfish-x54496w9pj673ppq4-1880.app.github.dev",
-      title: "Chat with a bot",
+      title: "Weatherbot",
       container: document.querySelector(".chat-container"),
-      welcomeMessage: "Nice to meet you.",
+      welcomeMessage: "Hi, I am a Weatherbot.",
       speechRecognition: "en-US",
       voiceLang: "en-US"
     });
     chatroom.openChat();
   </script>
 </body>
-</html>
+
