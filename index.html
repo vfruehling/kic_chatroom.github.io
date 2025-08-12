@@ -1,20 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.statically.io/gh/weberi/chatroom/master/index.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.statically.io/gh/weberi/chatroom/master/themes/theme1.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/dist/Chatroom.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/themes/theme2.css" />
 </head>
 <body>
-    <div class="chat-container"></div>
-    <script src="https://cdn.statically.io/gh/weberi/chatroom/master/dist/Chatroom.js"></script>
-    <script type="text/javascript">
+  <div class="chat-container"></div>
+
+  <script src="https://cdn.jsdelivr.net/gh/weberi/chatroom@master/dist/Chatroom.js"></script>
+  <script>
     var chatroom = new window.Chatroom({
-        host: "https://humble-goldfish-x54496w9pj673ppq4-1880.app.github.dev",
-        title: "Weatherbot",
-        container: document.querySelector(".chat-container"),
-        welcomeMessage: "Hi, I am a Weatherbot.",
-        speechRecognition: "en-US",
-        voiceLang: "en-US"
+      host: "https://humble-goldfish-x54496w9pj673ppq4-1880.app.github.dev",
+      title: "Chat with a bot",
+      container: document.querySelector(".chat-container"),
+      welcomeMessage: "Nice to meet you.",
+      speechRecognition: "en-US",
+      voiceLang: "en-US"
     });
     chatroom.openChat();
-    </script>
+  </script>
 </body>
+</html>
